@@ -19,19 +19,43 @@ body{
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 300;
     width: 960px;
-    margin: auto;
-    
+    margin: auto;    
 }
 .clearfix::after {
     display: block;
     content: '';
     clear: both;
-    float: none;    
+    float: none;
+}
+.container{
+        width: 960px;
+    margin: auto;
+    
 }
 header{
-    margin: 70px 0 0 0;
+    margin: 70px 0 0;
     max-height: 278px;
 }
 .logo{
-    margin: 70px 0 0 0;
+    float: left;    
+}
+.topmenu{
+    float: right;
+}
+.topmenu__element{
+    padding: 6px;
+    margin-left: 40px;
+    float: left;
+}
+.topmenu__element:hover{
+    border-bottom: 2px solid #edbfff;
+}
+.topmenu__link{
+    font-family: 'league_gothicregular';
+    font-size: 24px;    
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 2px #888;
 }
