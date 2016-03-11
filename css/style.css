@@ -33,6 +33,10 @@ header{
     float: left;
     height: 47px;
 }
+.logo__img{
+    float: left;
+    height: 47px;
+}
 .menu{
     float: right;
     padding: 4px 2px 0 0;
@@ -53,6 +57,9 @@ header{
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: 1px 2px 2px #888;
+}
+.mobilemenu {
+    display: none;
 }
 .sliderbox{
     position: relative;
@@ -400,6 +407,9 @@ header{
         float: none;
         display: block;
     }
+    .logo_img{
+        float: none;
+    }
     .menu{
         float: left;
     }
@@ -408,5 +418,118 @@ header{
     }
     .logos__logo{
         width: 33.333%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+    .container{
+        width: 480px;
+    }
+    .logo {
+        text-align: center;
+        float: none;
+        display: block;
+    }
+    .logo__img {
+        display: inline;
+        float: none;
+        margin-left: 42px;
+    }
+    .menu{
+        display: none;
+    }
+    .mobilemenu {
+        display: block;
+        text-align: center;
+        position: relative
+    }
+    .mobilemenu__link {
+        font-family: 'league_gothicregular';
+        font-size: 24px;
+        font-weight: normal;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-shadow: 1px 2px 2px #888;
+    }
+    .mobilemenu__link:hover{
+        border-bottom: 2px solid #edbfff;
+    }
+    .mobilemenu:hover .mobilemenu__link{
+        visibility: hidden;
+    }
+    .mobilemenu .menu{
+        float: none;
+        position: absolute;
+        top: -2px;
+        left: 50%;
+        padding: 0;
+        margin: 0;
+        margin-left: -123px;
+        width: 244px;
+        background: rgba(54, 41, 62, 0.9);
+        border-radius: 8px;
+        border: 1px solid #131d24;
+        z-index: 2;
+    }
+    .mobilemenu:hover .menu{
+        display: block;
+    }
+    .mobilemenu .menu__element{
+        float: none;
+        margin: 0;
+        padding: 0 0 2px 0;
+        border-top: 1px solid #5f486a;
+        border-bottom: 1px solid #36283e;
+    }
+    .mobilemenu .menu__element:hover{
+        background: rgba(0, 0, 0, 0.3);
+        padding: 0 0 0 0;
+    }
+    .mobilemenu .menu__element:first-child{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+    .mobilemenu .menu__element:last-child{
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+    .mobilemenu .menu__link{
+        display: block;
+        padding-bottom: 2px;
+    }
+    .mobilemenu .menu__element:hover .menu__link{
+        border-bottom: 2px solid #edbfff;
+    }
+    .mobilemenu .menu__element:last-child  .menu__link{
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+    .infobox{
+        height: auto;
+    }
+    .infoblock{
+        width: 100%;
+        float: none;
+    }
+    .news{
+        width: 100%;
+    }
+    .updates{
+        width: 100%;
+    }
+    .logos__logo{
+        width: 33.333%;
+    }
+    .column{
+        width: 100%;
+    }
+    .bottommenu{
+        display: block;
+    }
+    .copyright{
+        display: block;
+        float: none;
+        text-align: center;
     }
 }
