@@ -201,9 +201,11 @@ header{
     font-family:'league_gothicregular';
     font-size: 22px;
     color: #000;
+    text-transform: uppercase;
 }
 .news__emphasize{
     color: #edbfff;
+    font-variant: 
 }
 .news__text{
     padding-top: 20px;
@@ -298,4 +300,33 @@ header{
     max-height: 120px;
     margin: 50% 0 0 50%;
     transform: translate(-50%, -50%);
+}
+.footertop{
+    background: #ececec;
+    border-top: #d8d8d8;
+}
+.column{
+    float: left;
+    width: 33.333%;
+}
+.column__content{
+    
+}
+.column__heading{
+    font-family:'league_gothicregular';
+    font-size: 36px;    
+}
+.column__accent{
+    color: #b9b9b9;
+}
+.column__subtitles{
+    font-family: Georgia;
+    font-style: italic;
+    color: #c5c5c5;
+    font-size: 16px;
+}
+.column__text{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: #919191;
 }
