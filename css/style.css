@@ -391,3 +391,22 @@ header{
 .copyright__accent{
     font-weight: bold;
 }
+
+@media screen and (min-width: 768px) and (max-width: 959px){
+    .container{
+        width: 768px;
+    }
+    .logo{
+        float: none;
+        display: block;
+    }
+    .menu{
+        float: left;
+    }
+    .menu__element{
+        margin: 0 14px 0 0;
+    }
+    .logos__logo{
+        width: 33.333%;
+    }
+}
