@@ -174,3 +174,128 @@ header{
 .infoblock__link:hover{
     text-shadow: 0 0 3px #fff;
 }
+.newsbox{
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e6e6e6;
+}
+.news{
+    float: left;
+    width: 50%;
+}
+.news__slides{
+    padding: 100px 23px 0;
+}
+.news__slide{
+    display: none;
+}
+.news__slide.active{
+    display: block;
+}
+.news__textbubble{
+    background: #fff;
+    padding: 30px 40px;
+    position: relative;
+    border-right: 1px solid #f6f6f6;
+}
+.news__heading{
+    font-family:'league_gothicregular';
+    font-size: 22px;
+    color: #000;
+}
+.news__emphasize{
+    color: #edbfff;
+}
+.news__text{
+    padding-top: 20px;
+    line-height: 1.5em;
+}
+.news__avatar{
+    position: absolute;
+    top: 18px; left: -25px;
+}
+.news__shadow{
+    background: url(../img/news_shadow.png) repeat-x;
+    text-align: right;
+    padding-right: 40px;
+}
+.news__navbar{
+    text-align: center;
+}
+.news__nav{
+    margin-bottom: 58px;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 17px;
+    margin-left: 5px;
+    display: inline-block;
+    border: 1px solid #eee;
+}
+.news__nav.active{
+    background: -webkit-linear-gradient(bottom, #464646, #8a8a8a);
+    background: -o-linear-gradient(bottom, #464646, #8a8a8a);
+    background: linear-gradient(to top, #464646, #8a8a8a);
+    box-shadow: 0 0 0 2px #fff inset;
+}
+.updates{
+    width: 50%;
+    float: left;
+    padding-top: 100px;
+}
+.updates__content{
+    padding-top: 30px;
+}
+.updates__heading{
+    font-family:'league_gothicregular';
+    font-size: 22px;
+    color: #000;
+}
+.updates__post{
+    padding-bottom: 20px;
+}
+.updates__picture{
+    float: left;
+}
+.updates__info{
+    float: left;
+    padding: 10px 0 0 20px;
+}
+.updates__link{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+    color: #000;
+    text-decoration: none;
+}
+.updates__more{
+    float: right;
+}
+.updates__morelink{
+    font-family:'league_gothicregular';
+    color: #000;
+    text-decoration: none;
+    padding-right: 15px;
+}
+.logobox{
+    background: #f9f9f9;
+    border-top: 1px solid #fefefe;
+    border-bottom: 1px solid #fefefe;
+}
+.logos__rows{
+    padding: 0 20px;
+    text-align: center
+}
+.logos__logo{
+    float: left;
+    width: 16.666%;
+    height: 120px;
+}
+.logos__link{
+    display: block;
+    height: 120px;
+}
+.logos__img{
+    max-width: 100%;
+    max-height: 120px;
+    margin: 50% 0 0 50%;
+    transform: translate(-50%, -50%);
+}
