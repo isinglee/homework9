@@ -30,20 +30,22 @@ header{
     height: 208px;
 }
 .logo{
-    float: left;    
+    float: left;
+    height: 47px;
 }
-.topmenu{
+.menu{
     float: right;
+    padding: 4px 2px 0 0;
 }
-.topmenu__element{
-    padding: 6px;
-    margin-left: 40px;
+.menu__element{
+    padding: 0;
+    margin-left: 52px;
     float: left;
 }
-.topmenu__element:hover{
+.menu__element:hover{
     border-bottom: 2px solid #edbfff;
 }
-.topmenu__link{
+.menu__link{
     font-family: 'league_gothicregular';
     font-size: 24px;    
     font-weight: normal;
@@ -68,43 +70,44 @@ header{
     display: block;  
 }
 .slider__text{
-    width: 48%;
+    width: 53%;
     float: left;
 }
 .slider__text--title{    
-    padding-top: 80px;
+    padding: 79px 0 0 1px;
     color: #fff;
     font-family: 'league_gothicregular';
-    font-size: 45px;
+    font-size: 58px;
     text-shadow: 1px 2px 2px #000;    
 }
 .slider__text--subtitle{
     font-family: 'league_gothicregular';
     color: #edbfff;
-    font-size: 24px;
+    font-size: 32px;
     text-transform: uppercase;
     text-shadow: 1px 2px 2px #000;
-    padding-top: 12px;
+    padding-top: 1px;
 }
 .slider__bodytext{    
     color: #fff;
     font-family: 'Open Sans';
-    padding-top: 17px;
-    line-height: 1.5em;
+    padding: 4px 0 0 0px;
+    font-size: 18px;
+    line-height: 25px;
 }
 .slider__imgbox{
     margin-top: -17px;
-    padding-right: 24px;
+    padding-right: 71px;
     max-width: 48%;
     height: 434px;
     float: right;    
 }
 .slider__navbar{
     float: right;
-    margin-right: 120px;
+    margin: 76px 166px 0 0;
 }
 .slider__nav{
-    margin-bottom: 58px;
+    margin-bottom: 56px;
     width: 17px;
     height: 17px;
     background: rgba(0, 0, 0, 0.3);
@@ -127,32 +130,38 @@ header{
     background: linear-gradient(to top, #322539, #745083);
     
 }
+.infoblocks{
+    padding: 76px 0px 0 0px;
+}
 .infoblock{    
     width: 33.333%;
     float: left;
 }
-.infoblock__info{
-    width: calc(100% - 40px);
+.infoblock__icon{
+    background-image: url(../img/sprite.svg);
+    background-repeat: no-repeat;
     float: left;
-    padding: 80px 5px 0;    
+    margin: 7px 0 0 10px;
+    width: 30px;
+    height: 30px;
+}
+.infoblock__info{
+    width: calc(100% - 80px);
+    float: left;
+    padding: 0 0px 0 0;
+    margin: 0 0 0 23px;
 }
 .infoblock__heading{
     font-family: 'league_gothicregular';
-    font-size: 22px;
+    font-size: 30px;
     color: #fff;    
     text-transform: uppercase;
 }
 .infoblock__text{
     font-family: 'Open Sans', Arial, sans-serif;
     color: #fff;
-}
-.infoblock__icon{
-    background-image: url(../img/sprite.svg);
-    background-repeat: no-repeat;
-    float: left;
-    margin: 80px auto;
-    width: 30px;
-    height: 30px;
+    padding-top: 9px;
+    line-height: 24px;
 }
 .infoblock__icon--wrench{
     background-position: -120px 0;
@@ -165,11 +174,13 @@ header{
     background-position: -240px 0;
 }
 .infoblock__link{
+    float: right;
     font-family:'league_gothicregular'; 
-    font-size: 14px;
+    font-size: 18px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
+    margin: -5px 25px 0 0;
 }
 .infoblock__link:hover{
     text-shadow: 0 0 3px #fff;
@@ -177,13 +188,14 @@ header{
 .newsbox{
     background-color: #f9f9f9;
     border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 13px;
 }
 .news{
     float: left;
     width: 50%;
 }
 .news__slides{
-    padding: 100px 23px 0;
+    padding: 99px 29px 0 23px;
 }
 .news__slide{
     display: none;
@@ -193,23 +205,23 @@ header{
 }
 .news__textbubble{
     background: #fff;
-    padding: 30px 40px;
+    padding: 30px 40px 36px;
     position: relative;
     border-right: 1px solid #f6f6f6;
 }
 .news__heading{
     font-family:'league_gothicregular';
-    font-size: 22px;
+    font-size: 29px;
     color: #000;
     text-transform: uppercase;
 }
 .news__emphasize{
     color: #edbfff;
-    font-variant: 
 }
 .news__text{
-    padding-top: 20px;
+    padding-top: 9px;
     line-height: 1.5em;
+    hyphens: auto;
 }
 .news__avatar{
     position: absolute;
@@ -218,10 +230,11 @@ header{
 .news__shadow{
     background: url(../img/news_shadow.png) repeat-x;
     text-align: right;
-    padding-right: 40px;
+    padding-right: 39px;
 }
 .news__navbar{
     text-align: center;
+    padding: 0 10px 0 5px;
 }
 .news__nav{
     margin-bottom: 58px;
@@ -229,7 +242,7 @@ header{
     height: 15px;
     background: #fff;
     border-radius: 17px;
-    margin-left: 5px;
+    margin-left: 0px;
     display: inline-block;
     border: 1px solid #eee;
 }
@@ -245,22 +258,24 @@ header{
     padding-top: 100px;
 }
 .updates__content{
-    padding-top: 30px;
+    padding: 28px 0 0 29px;
 }
 .updates__heading{
     font-family:'league_gothicregular';
-    font-size: 22px;
+    font-size: 30px;
     color: #000;
+    text-transform: uppercase;
+    padding-bottom: 16px;
 }
 .updates__post{
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 .updates__picture{
     float: left;
 }
 .updates__info{
     float: left;
-    padding: 10px 0 0 20px;
+    padding: 4px 0 0 18px;
 }
 .updates__link{
     font-family: 'Open Sans', Arial, sans-serif;
@@ -268,12 +283,17 @@ header{
     color: #000;
     text-decoration: none;
 }
+.updates__meta{
+    padding: 8px 0 0 0;
+}
 .updates__more{
     float: right;
+    padding: 5px 6px 0 0;
 }
 .updates__morelink{
     font-family:'league_gothicregular';
     color: #000;
+    font-size: 18px;
     text-decoration: none;
     padding-right: 15px;
 }
@@ -283,10 +303,11 @@ header{
     border-bottom: 1px solid #fefefe;
 }
 .logos__rows{
-    padding: 0 20px;
+    padding: 0 58px;
     text-align: center
 }
 .logos__logo{
+    position: relative;
     float: left;
     width: 16.666%;
     height: 120px;
@@ -298,7 +319,9 @@ header{
 .logos__img{
     max-width: 100%;
     max-height: 120px;
-    margin: 50% 0 0 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 .footertop{
@@ -310,11 +333,20 @@ header{
     width: 33.333%;
 }
 .column__content{
-    
+    padding: 95px 18px 91px;
+}
+.column:first-child .column__content {
+    padding-left: 0;
+}
+.column:last-child .column__content {
+    padding-right: 0;
 }
 .column__heading{
     font-family:'league_gothicregular';
-    font-size: 36px;    
+    font-size: 30px;
+}
+.column__heading.column__logo {
+    font-size: 45px;
 }
 .column__accent{
     color: #b9b9b9;
@@ -324,9 +356,38 @@ header{
     font-style: italic;
     color: #c5c5c5;
     font-size: 16px;
+    padding: 15px 0 0 0;
 }
 .column__text{
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 16px;
     color: #919191;
+    padding: 10px 0 0 0;
+    line-height: 24px;
+}
+.footerbottom {
+    background: url(../img/footer_bg.jpg) center bottom;
+    height: 113px;
+    box-shadow: 0 0 10px #000 inset;
+}
+.menu.bottommenu{
+    float: left;
+    padding-top: 47px;
+}
+.bottommenu .menu__element{
+    padding: 0;
+    margin: 0 45px 0 0;
+    float: left;
+}
+.bottommenu .menu__link{
+    font-size: 19px;
+}
+.copyright{
+    float: right;
+    font-size: 12px;
+    padding-top: 55px;
+    color: #fff;
+}
+.copyright__accent{
+    font-weight: bold;
 }
