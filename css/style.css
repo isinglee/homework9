@@ -90,6 +90,7 @@ header{
     color: #fff;
     font-family: 'Open Sans';
     padding-top: 17px;
+    line-height: 1.5em;
 }
 .slider__imgbox{
     margin-top: -17px;
@@ -121,7 +122,7 @@ header{
     height: 340px;
     border-top: 1px solid #000;
     border-bottom: 2px solid #000;
-    background: -webkit-linear-gradient(#322539, #745083);
+    background: -webkit-linear-gradient(bottom, #322539, #745083);
     background: -o-linear-gradient(bottom, #322539, #745083);
     background: linear-gradient(to top, #322539, #745083);
     
@@ -135,7 +136,7 @@ header{
     float: left;
     padding: 80px 5px 0;    
 }
-H2{
+.infoblock__heading{
     font-family: 'league_gothicregular';
     font-size: 22px;
     color: #fff;    
@@ -156,7 +157,7 @@ H2{
 .infoblock__icon--wrench{
     background-position: -120px 0;
 }
-.infoblock__icon--buble{
+.infoblock__icon--bubble{
     background-position: -180px 0;
 }
 
