@@ -533,3 +533,15 @@ header{
         text-align: center;
     }
 }
+
+@media screen and (max-width: 479px){
+    .container{
+        width: 320px;
+    }
+    .slider__imgbox{
+        display: none;
+    }
+    .logos__logo{
+        width: 50%;
+    }
+}
