@@ -13,7 +13,8 @@ html {
 body{
     background: url(../img/bg.jpg) no-repeat center top fixed;
     font-family: 'Open Sans', Arial, sans-serif;
-    font-weight: 300;    
+    font-weight: 300;
+    min-width: 320px;
 }
 .clearfix::after {
     display: block;
@@ -842,12 +843,7 @@ header{
         font-size: 20px;
     }
     .copyright{
-        font-size: 12px;
         padding: 102px 0px 0 0;
-        color: #fff;
-    }
-    .copyright__accent{
-        font-weight: bold;
     }
 }
 
@@ -855,10 +851,184 @@ header{
     .container{
         width: 320px;
     }
+    .pixel-perfect-xxs-hack {
+        display: none;
+    }
+    .sliderback {
+        display: none;
+    }
+    .slider__slides {
+        height: 238px;
+        position: relative;
+    }
+    .slider__text {
+        width: 100%;
+    }
+    .slider__text--title {
+        display: block;
+        float: none;
+        padding: 18px 0 0 64px;
+        font-size: 36px;
+    }
+    .slider__text--subtitle {
+        padding: 2px 36px 0 63px;
+        font-size: 19px;
+    }
+    .slider__bodytext {
+        display: none;
+    }
     .slider__imgbox{
         display: none;
     }
-    .logos__logo{
+    .slider__navbar {
+        display: block;
+        float: none;
+        margin: 0px 0px 10px 2px;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .slider__nav {
+        float: none;
+        display: inline-block;
+        margin-left: 1px;
+    }
+    .infobox {
+        padding-bottom: 31px;
+    }
+    .infoblocks {
+        padding-top: 70px;
+    }
+    .infoblock {
+        position: relative;
+        padding: 0 0 2px 60px;
+    }
+    .infoblock__content{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .infoblock__content::after {
+        display: block;
+        content: '';
+        clear: both;
+        float: none;
+    }
+    .infoblock__icon{
+        position: absolute;
+        left: 20px;
+        top: 11px;
+    }
+    .infoblock__info{
+        padding: 0 1px 0 0;
+        margin: 0 0 30px 22px;
+    }
+    .infoblock__heading{
+        font-size: 24px;
+    }
+    .infoblock__text{
+        padding-top: 4px;
+        line-height: 24px;
+    }
+    .infoblock__link{
+        margin: 15px 29px 0 0;
+    }
+    .newsbox{
+        padding-bottom: 88px;
+    }
+    .news__slides{
+        padding: 70px 21px 0 43px;
+    }
+    .news__slide{
+        display: none;
+    }
+    .news__slide.active{
+        display: block;
+    }
+    .news__textbubble{
+        padding: 23px 35px 3px;
+    }
+    .news__heading{
+        font-size: 24px;
+        padding-top: 1px;
+    }
+    .news__emphasize {
+        display: block;
+    }
+    .news__text{
+        padding-top: 5px;
+        padding-left: 4px;
+    }
+    .news__avatar{
+        position: absolute;
+        top: 18px;
+        left: -24px;
+    }
+    .news__shadow {
+        height: 24px;
+    }
+    .news__triangle{
+        display: none;
+    }
+    .news__navbar{
+        padding: 0 10px 0 54px;
+    }
+    .news__nav{
+        margin-bottom: 19px;
+    }
+    .updates{
+        padding: 0 0 0 0px;
+    }
+    .updates__content{
+        padding-left: 18px;
+    }
+    .updates__post{
+        position: relative;
+        padding-bottom: 23px;
+    }
+    .updates__picture{
+        position: absolute;
+    }
+    .updates__info{
+        float: left;
+        padding: 4px 0 0 66px;
+    }
+    .updates__meta{
+        padding: 8px 0 0 0;
+    }
+    .updates__categoryname {
+        display: none;
+    }
+    .updates__more{
+        padding: 0px 10px 0 0;
+    }
+    .updates__morelink{
+        font-size: 19px;
+    }
+    .updates__year {
+        display: none;
+    }
+    .logos__rows{
+        padding: 23px 27px 49px;
+    }
+    .logos__logo {
         width: 50%;
+        height: 116px;
+    }
+    .logos__link {
+        height: 116px;
+    }
+    .footertop {
+        display: none;
+    }
+    .bottommenu {
+        display: none;
+    }
+    .footerbottom {
+        height: 201px;
+    }
+    .copyright{
+        padding: 42px 0px 0 0;
     }
 }
