@@ -15,6 +15,7 @@ body{
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 300;
     min-width: 320px;
+    overflow-x: hidden;
 }
 .clearfix::after {
     display: block;
@@ -70,6 +71,9 @@ header{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     height: 400px;
+}
+.slider {
+    position: relative;
 }
 .slider__slide{
     display: none;
@@ -128,6 +132,25 @@ header{
     width: 11px;
     height: 11px;
     border: 4px solid rgba(0, 0, 0, 0.7);
+}
+.slider__arrow {
+    background-image: url(../img/sprite.svg);
+    background-repeat: no-repeat;
+    float: left;
+    margin: 7px 0 0 10px;
+    width: 25px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+}
+.slider__leftarrow {
+    top: 178px;
+    left: -328px;
+}
+.slider__rightarrow {
+    background-position: -60px 0;
+    top: 178px;
+    right: -320px;
 }
 .infobox{
     height: 340px;
@@ -450,6 +473,14 @@ header{
     .slider__nav{
         margin-bottom: 99px;
     }
+    .slider__leftarrow {
+        top: 177px;
+        left: -12px;
+    }
+    .slider__rightarrow {
+        top: 177px;
+        right: 0px;
+    }
     .infoblock__icon{
         margin: 4px 0 0 30px;
     }
@@ -719,6 +750,14 @@ header{
         display: block;
         margin: -30px 194px 3px;
     }
+    .slider__leftarrow {
+        top: 101px;
+        left: -12px;
+    }
+    .slider__rightarrow {
+        top: 101px;
+        right: 0px;
+    }
     .infobox {
         padding-bottom: 43px;
     }
@@ -894,6 +933,14 @@ header{
         float: none;
         display: inline-block;
         margin-left: 1px;
+    }
+    .slider__leftarrow {
+        top: 26px;
+        left: -12px;
+    }
+    .slider__rightarrow {
+        top: 26px;
+        right: 0px;
     }
     .infobox {
         padding-bottom: 31px;
