@@ -18,6 +18,9 @@ body {
     clear: both;
     float: none;
 }
+.ie8clearfix {
+    display: none;
+}
 .container {
     width: 960px;
     margin: auto;
@@ -33,6 +36,14 @@ header {
 .logo__img {
     float: left;
     height: 47px;
+}
+.logoie{
+    float: left;
+    height: 47px;
+    display: none;
+}
+.logoie__img{
+/*    height: 39px;*/
 }
 .menu {
     float: right;
@@ -347,6 +358,8 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 .footertop {
