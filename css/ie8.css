@@ -8,12 +8,12 @@
     padding-top: 70px;
     height: 208px;
 }
-.sliderback {
-    background: url(../img/slider_shadow.png);
-}
 .ie8clearfix {
     display: block;
     clear: both;
+}
+.sliderback {
+    background: url(../img/slider_shadow.png);
 }
 .slider__nav {
     margin-bottom: 56px;
@@ -42,21 +42,21 @@
     background: url(../img/note.png);
     background-position: 0 0;
 }
-.infoblock__content{
+.infoblock__content {
     display: table-row;
 }
-.infoblock__icon{
+.infoblock__icon {
     float: none;
     position: static;
     display: table-cell;
     background-repeat: no-repeat;
 }
-.infoblock__text{
+.infoblock__text {
     float: none;
     position: static;
     display: table-cell;
 }
-.infoblock__link{
+.infoblock__link {
     margin-top: 5px;
 }
 .news__nav {
@@ -69,14 +69,14 @@
     background: url(../img/circle_vizited.png);
     box-shadow: none;
 }
-.updates__post{
+.updates__post {
     display: table-row;
 }
-.updates__picture{
+.updates__picture {
     float: none;
     display: table-cell;
 }
-.updates__info{
+.updates__info {
     float: none;
     display: table-cell;
     vertical-align: top;

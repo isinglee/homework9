@@ -163,6 +163,7 @@ header {
     border-top: 1px solid #000;
     border-bottom: 2px solid #000;
     background: -webkit-linear-gradient(bottom, #322539, #745083);
+    background: -moz-linear-gradient(bottom, #322539, #745083);
     background: -o-linear-gradient(bottom, #322539, #745083);
     background: linear-gradient(to top, #322539, #745083);
 }
@@ -182,6 +183,7 @@ header {
     height: 30px;
 }
 .infoblock__info {
+    width: -moz-calc(100% - 80px);
     width: calc(100% - 80px);
     float: left;
     padding: 0 0px 0 0;
@@ -284,6 +286,7 @@ header {
 }
 .news__nav.active {
     background: -webkit-linear-gradient(bottom, #464646, #8a8a8a);
+    background: -moz-linear-gradient(bottom, #464646, #8a8a8a);
     background: -o-linear-gradient(bottom, #464646, #8a8a8a);
     background: linear-gradient(to top, #464646, #8a8a8a);
     box-shadow: 0 0 0 2px #fff inset;
@@ -360,6 +363,7 @@ header {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 .footertop {
@@ -491,6 +495,7 @@ header {
         margin: 4px 0 0 30px;
     }
     .infoblock__info {
+        width: -moz-calc(100% - 90px);
         width: calc(100% - 90px);
         padding: 0 1px 0 0;
         margin: 0 0 0 21px;
@@ -770,6 +775,7 @@ header {
         margin: 2px 0 0 30px;
     }
     .infoblock__info {
+        width: -moz-calc(100% - 90px);
         width: calc(100% - 90px);
         padding: 0 1px 0 0;
         margin: 0 0 26px 22px;
